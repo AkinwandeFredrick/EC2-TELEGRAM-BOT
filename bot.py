@@ -171,5 +171,6 @@ if __name__  == "__main__":
         MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message)
     )
 
+    
     print(f"Bot started successfully! Model: {MODEL}")
     app.run_polling()
